@@ -1,0 +1,5 @@
+(library
+ (public_name aoc)
+ (name aoc)
+ (libraries base angstrom stdio)
+ (preprocess (pps ppx_jane)))
