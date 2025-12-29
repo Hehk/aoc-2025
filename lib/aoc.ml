@@ -1,12 +1,10 @@
-module Day_1 = Day_1
-module Day_2 = Day_2
-
 (* CLAUDE WROTE THIS DOOZEY BUT IT WORKS... *)
 
 let run_day day =
   match day with
   | 1 -> Day_1.main ()
   | 2 -> Day_2.main ()
+  | 3 -> Day_3.main ()
   | _ ->
       Printf.eprintf "Error: Day %d not implemented yet\n" day;
       exit 1
@@ -35,4 +33,3 @@ let main () =
   | None ->
       Printf.eprintf "Usage: %s\n" usage_msg;
       exit 1
-
